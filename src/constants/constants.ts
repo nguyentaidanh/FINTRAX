@@ -13,9 +13,9 @@ export const INITIAL_USERS: User[] = [
   { 
     id: 'user-1', 
     name: 'Alex Doe', 
-    email: 'alex.doe@example.com', 
+    email: 'accountDemo@gmail.com', 
     avatar: 'https://i.pravatar.cc/128?u=alex', 
-    password: 'password123',
+    password: '123456',
     notificationSettings: {
       reminders: {
         recurring: { enabled: true, daysBefore: 3 }

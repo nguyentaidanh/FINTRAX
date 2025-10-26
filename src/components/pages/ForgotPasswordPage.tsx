@@ -35,7 +35,7 @@ const ForgotPasswordPage: React.FC = () => {
               <Input
                 id="email"
                 type="email"
-                placeholder="alex.doe@example.com"
+                placeholder="accountDemo@gmail.com"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

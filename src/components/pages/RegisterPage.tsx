@@ -67,7 +67,7 @@ const RegisterPage: React.FC = () => {
             </div>
             <div className="space-y-2">
               <label htmlFor="email">{t('emailAddress')}</label>
-              <Input id="email" type="email" placeholder="alex.doe@example.com" required value={email} onChange={(e) => setEmail(e.target.value)} disabled={isLoading} />
+              <Input id="email" type="email" placeholder="accountDemo@gmail.com" required value={email} onChange={(e) => setEmail(e.target.value)} disabled={isLoading} />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-2">

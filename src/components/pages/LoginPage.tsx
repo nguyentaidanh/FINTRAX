@@ -45,7 +45,7 @@ const LoginPage: React.FC = () => {
               <Input
                 id="email"
                 type="email"
-                placeholder="alex.doe@example.com"
+                placeholder="accountDemo@gmail.com"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -67,6 +67,10 @@ const LoginPage: React.FC = () => {
                 onChange={(e) => setPassword(e.target.value)}
                 disabled={isLoading}
               />
+            </div>
+            <div className=" text-slate-900 dark:text-slate-100 justify-center flex flex-col text-sm space-y-1">
+              <span>Account demo: accountDemo@gmail.com</span>
+              <span>Password demo: 123456</span>
             </div>
           </CardContent>
           <CardFooter className="flex flex-col gap-4">
